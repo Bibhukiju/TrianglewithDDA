@@ -27,6 +27,7 @@ void DDA(int X0, int Y0, int X1, int Y1)
 		putpixel (X,Y,RED);
 		X += Xinc;
 		Y += Yinc;
+		delay(20);
 
 	}
 }
@@ -37,7 +38,7 @@ int main()
     initwindow(800,800);
 	DDA(20,200,150,190);
 	DDA(150,190,40,100);
-	DDA(20, 200, 40, 100);
+	DDA(40, 100,20,200);
 	getch();
 	return 0;
 }
