@@ -39,6 +39,7 @@ int main()
 	DDA(20,200,150,190);
 	DDA(150,190,40,100);
 	DDA(40, 100,20,200);
+	outtextxy(40,150,"Bibhu");
 	getch();
 	return 0;
 }
